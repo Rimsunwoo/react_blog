@@ -8,7 +8,7 @@ const Container = styled.div`
   box-sizing: border-box;
   margin-top: 60px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   position: relative;
   border-right: 1px solid;

@@ -22,7 +22,8 @@ export default Footer;
 const FooterLayout = styled.footer`
   display: flex;
   justify-content: center;
-  height: 100px;
+  align-items: center;
+  height: 50px;
   margin-top: 160px;
   color: #12263a;
   background-color: #ffff;
