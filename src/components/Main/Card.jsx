@@ -8,7 +8,6 @@ import { useMutation, useQueryClient } from "react-query";
 import { removePost, modifyPost } from "../../api/posts";
 import Button from "../Common/Button";
 import LabeldInput from "../Common/LabeldInput";
-import getDate from "../Common/getDate";
 
 function Card({ post }) {
   const modalIsOpen = useSelector((state) => state.modal.modalIsOpen);
@@ -16,6 +15,7 @@ function Card({ post }) {
   const [isOpen, setIsOpen] = useState({ modifyIsOpen: false, removeIsOpen: false });
   const dispatch = useDispatch();
   const queryClient = useQueryClient();
+
   const removeMutation = useMutation(removePost, {
     onSuccess: () => {
       queryClient.invalidateQueries("posts");
