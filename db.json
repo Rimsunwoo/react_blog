@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "title": "aa",
+      "content": "aaa",
+      "date": "2023/7/12",
+      "id": 2
+    },
+    {
+      "title": "aaa",
+      "content": "aa",
+      "date": "2023/7/13",
+      "id": 3
+    },
+    {
+      "title": "ㅁㅁㅁ",
+      "content": "ㅁㅁㅁ",
+      "date": "2023/7/14",
+      "id": 9
+    },
+    {
+      "title": "aa",
+      "content": "aa",
+      "date": "2023/7/14",
+      "id": 10
+    }
+  ]
+}
