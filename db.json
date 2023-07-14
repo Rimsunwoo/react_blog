@@ -1,19 +1,34 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "aa",
+      "content": "aaa",
+      "date": "2023/7/12",
+      "id": 2
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "ㅇㅇ",
+      "content": "ㅇㅇ",
+      "date": "2023/7/13",
+      "id": 3
+    },
+    {
+      "title": "a",
+      "content": "a",
+      "date": "2023/7/14",
+      "id": 8
+    },
+    {
+      "title": "ㅁㅁㅁ",
+      "content": "ㅁㅁㅁ",
+      "date": "2023/7/14",
+      "id": 9
+    },
+    {
+      "title": "aa",
+      "content": "aa",
+      "date": "2023/7/14",
+      "id": 10
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
